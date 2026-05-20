@@ -10,7 +10,6 @@
         <meta name="description" content="Pagina personale - Davide Salaorni">
         <meta name="author" content="Davide Salaorni">
         <title>Davide Salaorni</title>
-        <base target="_blank">
 
         <!--<link href="css/custom.css" rel="stylesheet">-->
         <!-- Bootstrap core CSS -->
@@ -449,5 +448,12 @@
         <script src="js/popper.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
         <script src="js/bibtex.js"></script>
+
+        <script>
+            $(document).ready(function() {
+                // Apply target="_blank" to all links EXCEPT internal anchors (#) and the top-left brand link
+                $('a:not([href^="#"]):not(.navbar-brand)').attr('target', '_blank');
+            });
+        </script>
     </body>
 </html>
