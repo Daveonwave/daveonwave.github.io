@@ -17,7 +17,7 @@
         <!-- Custom styles for this template -->
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
         <script>
-            var nav_height = 100px; // pixels
+            var nav_height = 100; // pixels
             $(window).bind('hashchange', function(e){
                 if($(location.hash).hasClass('my-class')){
                     scrollBy(0, nav_height);
@@ -103,8 +103,8 @@
                         I recently obtained my Ph.D. in Information Technology at the Department of Electronics, Information and Bioengineering (DEIB) of Politecnico di Milano, under the supervision of professors <a href="https://scholar.google.com/citations?hl=it&user=xdgxRiEAAAAJ">Marcello Restelli</a> and <a href="https://scholar.google.com/citations?hl=it&user=8YH4RE4AAAAJ">Francesco Trovò</a>. </br>
                         My main research topics revolve around artificial intelligence and machine learning, focusing on online learning and reinforcement learning conceived for real-world domains. 
                         I received a Ph.D. scholarship financed by the Italian research center <a href="https://www.rse-web.it/en/">RSE S.p.A.</a> to develop digital twins for battery energy storage systems, integrating machine learning methods to empower real-time monitoring and optimal energy management strategies within micro-grids and renewable energy community networks.</br>
-                        At the moment I'm transitioning towards the application of reinforcement learning to robotics and embodied AI.
-                        <br><br> Download my <a href="CV_20260807.pdf">Extended Curriculum Vitae</a>.
+                        At the moment I'm transitioning towards the application of reinforcement learning to robotics and embodied AI, with a particular focus on post-training and alignment frameworks.
+                        <br><br> Download my <a href="CV20260928.pdf">Extended Curriculum Vitae</a>.
                     </section>
 
                     <section id="news" class="mt-5">
@@ -113,7 +113,7 @@
                         <h4 class="mt-4 mb-2">2026</h4>
                         <ul style="padding-left: 1.2em; margin-bottom: 25px;">
                             <li class="mb-2">
-                                I've successfully defended my PhD thesis <a href=""><i>Empowering Digital Twins for Battery Energy Storage Systems with Machine Learning</i></a> and received a PhD in Information Technology!
+                                I've successfully defended my PhD thesis <a href="papers/phdthesis/thesis.pdf"><i>Empowering Digital Twins for Battery Energy Storage Systems with Machine Learning</i></a> and received a PhD in Information Technology!
                             </li>
                             <li class="mb-2">
                                 I'm joining the organizing committee for the 2026 edition of the <strong>Reinforcement Learning Summer School</strong> (<a href="https://2026.rlsummerschool.com">RLSS</a>) in Milan!
@@ -234,7 +234,16 @@
                         </p>
                         <h4>Workshops</h4>
                         <p>
-                            [W1] <u>Davide Salaorni</u>, Vincenzo De Paola, Samuele Delpero, Giovanni Dispoto, Paolo Bonetti, Alessio Russo, Giuseppe Calcagno, Francesco Trovò, Matteo Papini, Alberto Maria Metelli, Marco Mussi and Marcello Restelli. 
+                            [W1] Tommaso Felice Banfi, <u>Davide Salaorni</u>, Francesco Dorati, Gabriele Voss.
+                            Beyond Task Success: Post-Training Humanoid Locomotion with Human Preference. 
+                            <i>RoboPAD: Post-Training Adaptation of Robot Foundation Models (NeurIPS)</i>, Paris, France. 2026.
+                            <br>
+                            <a href="">[Link - To Appear]</a>
+                            <a href="">[Paper - To Appear]</a>
+                            <a href="">[Poster - To Appear]</a>
+                        </p>
+                        <p>
+                            [W2] <u>Davide Salaorni</u>, Vincenzo De Paola, Samuele Delpero, Giovanni Dispoto, Paolo Bonetti, Alessio Russo, Giuseppe Calcagno, Francesco Trovò, Matteo Papini, Alberto Maria Metelli, Marco Mussi and Marcello Restelli. 
                             Gym4ReaL: A Benchmark Suite for Evaluating Reinforcement Learning in Realistic Domains. 
                             <i>European Workshop on Reinforcement Learning (EWRL)</i>, Tubingen, Germany. 2025.
                             <br>
@@ -243,7 +252,7 @@
                             <a href="papers/ewrl2025/poster.pdf">[Poster]</a>
                         </p>
                         <p>
-                            [W2] Samuele Delpero, <u>Davide Salaorni</u> and Marcello Restelli. 
+                            [W3] Samuele Delpero, <u>Davide Salaorni</u> and Marcello Restelli. 
                             Optimal Energy Management of Renewable Energy Communities: a Multi-Agent Reinforcement Learning Approach.
                             <i>Machine Learning for Sustainable Power Systems (ML4SPS)</i>, ECML-PKDD, Porto, Portugal. 2025.
                             <br>
@@ -251,7 +260,7 @@
                             <a href="papers/ecmlpkdd2025/slides.pptx" download>[Slides]</a>
                         </p>
                         <p>
-                            [W3] <u>Davide Salaorni</u>, Federico Bianchi, Francesco Trovò and Marcello Restelli. 
+                            [W4] <u>Davide Salaorni</u>, Federico Bianchi, Francesco Trovò and Marcello Restelli. 
                             Leveraging Reinforcement Learning for Micro-grid Optimal Control.
                             <i> Deep Learning Techniques for Observable Smart Grid and Sustainable Energy Systems (DLT-4-OSGE)</i>, IJCNN, Rome, Italy. 2025.
                             <br>
@@ -259,7 +268,7 @@
                             <a href="papers/ijcnn2025/short-slides.pdf">[Slides]</a>
                         </p>
                         <p>
-                            [W4] <u>Davide Salaorni</u>, Andrés Murillo, Marcello Restelli and Stefano Galelli. 
+                            [W5] <u>Davide Salaorni</u>, Andrés Murillo, Marcello Restelli and Stefano Galelli. 
                             Optimal Real Time Control of Water Distribution System undergoing Cyber-Attacks: a Reinforcement Learning approach.
                             <i>2nd IFAC Workshop on Control Methods for Water Resource Systems (CMWRS)</i>, Milan, Italy. 2022.
                             <br>
@@ -271,9 +280,9 @@
                         <p>
                             [B1] <u>Davide Salaorni</u>, Federico Bianchi, Marcello Restelli and Francesco Trovò. 
                             Automatic Control and Reinforcement Learning Techniques for Microgrids.
-                            <i>Advances in Digital Twin Computing and Sensor Networks</i>, Elsevier. Under review.
+                            <i>Advances in Digital Twin Computing and Sensor Networks</i>, Elsevier. 2026.
                             <br>
-                            <a href="">[Link - To Appear]</a>
+                            <a href="https://www.sciencedirect.com/science/chapter/edited-volume/abs/pii/B9780443366642000174">[Link]</a>
                             <!-- <a href="papers/TODO/paper.pdf">[Paper]</a> -->
                         </p>
                         <h4>Preprints</h4>
@@ -305,8 +314,8 @@
                             <i>Scholarship:</i> Financed by Ricerca sul Sistema Energetico (RSE S.p.A.)<br>
                             <i>Relevant coursework:</i> Reinforcement Learning, Online Learning and Monitoring, Multi-Agent Learning: from Theory to Practice, Stochastic Dynamic Programming, Advanced Topics in Deep Learning: the Rise of Transformers
                             <br>
-                            <a href="">[Thesis - To Appear]</a>
-                            <a href="">[Slides - To Appear]</a>
+                            <a href="papers/phdthesis/thesis.pdf">[Thesis]</a>
+                            <a href="papers/phdthesis/slides.pdf">[Slides]</a>
                         </p>
                         <p>
                             <b>M.Sc. in Computer Science and Engineering - <i>Politecnico di Milano</i>, Milan, Italy </b> (Mar 2019 - Dec 2021)<br>
@@ -326,6 +335,10 @@
                     </section>
                     <section id="experience" class="mt-5">
                         <h2 class="display-5">Work Experience</h2><hr>
+                        <p>
+                            <b>Founding Researcher - <i>Talos Robotics AI</i>, Milan, Italy </b> (May 2026 - Now)<br>
+                            <i>Goal:</i> Research on post-training of humanoid locomotion policies for alignment with human expectation.
+                        </p>
                         <p>
                             <b>Ph.D. Researcher - <i>Ricerca sul Sistema Energetico (RSE S.p.A.)</i>, Milan, Italy </b> (Nov 2022 - Nov 2025)<br>
                             <i>Goal:</i> Development of Digital Twins for battery energy storage systems and integration with Machine Learning techniques for real-time monitoring and optimal energy management in micro-grids and renewable energy communities.
@@ -426,10 +439,12 @@
                     <section id="contacts" class="mt-5">
                         <h2 class="display-5">Contacts</h2><hr>
                         <p>
-                            <b>Email </b><br><i> davide DOT salaorni AT polimi DOT it</i><br>
-                            <b>Personal Email </b><br><i> davidesalaorni AT gmail DOT com</i>
+                            <!-- <b>Email </b><br><i> davide DOT salaorni AT polimi DOT it</i><br> -->
+                            <b>Email </b><br><i> davidesalaorni AT gmail DOT com</i><br>
+                            <b>Polimi Email </b><br><i> davide DOT salaorni AT polimi DOT it</i><br>
                         </p>
                         </p>
+                        <!--
                         <h4>Office</h4>
                         <p>
                             Office 21, First Floor of Building 21 <br>
@@ -437,6 +452,7 @@
                             Politecnico di Milano <br>
                             Via Ponzio 34/5, Milan, 20133, Italy
                         </p>
+                        -->
                     </section>
                     <br>
                 </div>
@@ -444,7 +460,7 @@
         </main>
         <footer class="footer">
             <div class="container">
-                <span class="text-muted"> © 2025 - Davide Salaorni </span>
+                <span class="text-muted"> © 2026 - Davide Salaorni </span>
                 <br><br>
             </div>
         </footer>
